@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  background-color: whitesmoke;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+#color-picker {
+  width: 5em;
+  height: 3.9em;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+#colors {
+  /* width: 17em;
+  height: 3em; */
+  padding: 0.8em 1em;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: 600;
+  border: 2px solid rgba(128, 128, 128, 0.167);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#colors option {
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.color-scheme {
+  padding: 1.2em 0.5em;
+  border: 2px solid rgba(128, 128, 128, 0.167);
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-family: Montserrat;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/*           COLOR TABS           */
+
+.color-tab {
+  display: flex;
+  height: 89.9vh;
+}
+
+.hex-color {
+  display: flex;
+  align-items: end;
+  width: 20%;
+  /* min-height: 89.9vh; */
+}
+
+.hex-color p {
+  width: 100%;
+  margin: 0;
+  padding: 1em 0;
+  background-color: whitesmoke;
+  font-weight: 600;
+  text-align: center;
+}
