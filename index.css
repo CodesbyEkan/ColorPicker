@@ -48,7 +48,7 @@ body {
 }
 
 .color-scheme {
-  padding: 0.55em 0.5em;
+  padding: 0.95em 0.5em;
   border: 2px solid rgba(128, 128, 128, 0.167);
   border-radius: 5px;
   font-size: 0.7 rem;
@@ -61,7 +61,7 @@ body {
 
 .color-tab {
   display: flex;
-  height: 89.9vh;
+  height: 88.9vh;
 }
 
 .hex-color {
