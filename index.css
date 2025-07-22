@@ -61,14 +61,14 @@ body {
 
 .color-tab {
   display: flex;
-  /* height: 85.9vh; */
+  height: 89vh;
 }
 
 .hex-color {
   display: flex;
   align-items: end;
   width: 20%;
-  min-height: 85.9vh;
+  min-height: 100%;
 }
 
 .hex-color p {
